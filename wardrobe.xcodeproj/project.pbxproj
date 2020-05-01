@@ -16,6 +16,9 @@
 		AB7E7326245C756F008BBF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7E7324245C756F008BBF99 /* LaunchScreen.storyboard */; };
 		AB7E7331245C7570008BBF99 /* wardrobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E7330245C7570008BBF99 /* wardrobeTests.swift */; };
 		AB7E733C245C7570008BBF99 /* wardrobeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E733B245C7570008BBF99 /* wardrobeUITests.swift */; };
+		AB7E734A245C75CA008BBF99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB7E7349245C75CA008BBF99 /* GoogleService-Info.plist */; };
+		AB7E734B245C75CA008BBF99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB7E7349245C75CA008BBF99 /* GoogleService-Info.plist */; };
+		AB7E734C245C75CA008BBF99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB7E7349245C75CA008BBF99 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		AB7E7337245C7570008BBF99 /* wardrobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wardrobeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7E733B245C7570008BBF99 /* wardrobeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobeUITests.swift; sourceTree = "<group>"; };
 		AB7E733D245C7570008BBF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E7349245C75CA008BBF99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				AB7E7322245C756F008BBF99 /* Assets.xcassets */,
 				AB7E7324245C756F008BBF99 /* LaunchScreen.storyboard */,
 				AB7E7327245C756F008BBF99 /* Info.plist */,
+				AB7E7349245C75CA008BBF99 /* GoogleService-Info.plist */,
 				AB7E731F245C756C008BBF99 /* wardrobe.xcdatamodeld */,
 			);
 			path = wardrobe;
@@ -236,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7E7326245C756F008BBF99 /* LaunchScreen.storyboard in Resources */,
+				AB7E734A245C75CA008BBF99 /* GoogleService-Info.plist in Resources */,
 				AB7E7323245C756F008BBF99 /* Assets.xcassets in Resources */,
 				AB7E731E245C756C008BBF99 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7E734B245C75CA008BBF99 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7E734C245C75CA008BBF99 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
